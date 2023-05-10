@@ -1,0 +1,1 @@
+Download it from: https://github.com/appium/java-client/blob/master/src/test/java/io/appium/java_client/ApiDemos-debug.apk

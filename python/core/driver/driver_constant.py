@@ -1,0 +1,5 @@
+CHROME = "chrome"
+FIREFOX = "firefox"
+REMOTE = "remote"
+MOBILE = "mobile"
+IE = "ie"

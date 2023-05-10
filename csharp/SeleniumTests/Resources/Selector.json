@@ -1,0 +1,8 @@
+{
+  "TrelloLoginPage": {
+    "EmailTextBox": "id=user",
+    "PasswordTextBox": "id=password",
+    "LoginButton": "id=login",
+    "ErrorMessageLabel": "css=#error>.error-message"
+  }
+}

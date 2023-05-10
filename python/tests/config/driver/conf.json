@@ -1,0 +1,69 @@
+{
+  "chrome_browser": {
+    "remote_host": "",
+    "driver": "chrome",
+    "capabilities": {
+      "browserName": "chrome"
+    },
+    "maximize": true
+  },
+  "firefox_brower": {
+    "remote_host": "",
+    "driver": "firefox",
+    "capabilities": {
+      "browserName": "firefox"
+    },
+    "maximize": true
+  },
+  "ie_brower": {
+    "remote_host": "",
+    "driver": "ie",
+    "capabilities": {
+      "browserName": "internet explorer"
+    },
+    "maximize": true
+  },
+  "browserstack_chrome_browser": {
+    "remote_host": "https://truongpham4:CGFEPsqkTzqxAYEz85jE@hub-cloud.browserstack.com/wd/hub",
+    "driver": "remote",
+    "capabilities": {
+      "browser": "Chrome",
+      "os": "Windows",
+      "browser_version": "74.0",
+      "os_version": "10"
+    },
+    "maximize": true
+  },
+  "chrome_remote": {
+    "remote_host": "http://192.168.189.206:4444/wd/hub",
+    "driver": "remote",
+    "capabilities": {
+      "browserName": "chrome"
+    },
+    "maximize": true
+  },
+  "android_browser": {
+    "remote_host": "http://192.168.189.206:4723/wd/hub",
+    "driver": "mobile",
+    "capabilities": {
+      "browserName": "chrome",
+      "platformName": "Android",
+      "deviceName": "Samsung Galaxy S7",
+      "unicodeKeyboard": true,
+      "resetKeyboard": true
+    },
+    "maximize": false
+  },
+  "android_native": {
+    "remote_host": "http://192.168.189.206:4723/wd/hub",
+    "driver": "mobile",
+    "capabilities": {
+      "app": "../../tests/resources/android/ApiDemos-debug.apk",
+      "platformName": "Android",
+      "deviceName": "Samsung Galaxy S7",
+      "unicodeKeyboard": true,
+      "resetKeyboard": true
+    },
+    "maximize": false
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+	"$schema": "https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/ReportPortal.NUnitExtension/ReportPortal.config.schema",
+	"enabled": true,
+    "server": {
+        "url": "http://753dd218.ngrok.io/api/v1/",
+        "project": "superadmin_personal",
+        "authentication": {
+            "uuid": "77446585-b095-4ec8-95d1-1f4b9dd8f1c7"
+        }
+    },
+	"launch": {
+		"name": "Selenium Test",
+		"description": "1 billion tests are running",
+		"debugMode": false,
+		"tags": [ "test", "chrome" ]
+	}
+}

@@ -1,0 +1,33 @@
+[
+	{
+		"name": "btnAdd",
+		"type": "Button",
+		"locators": [
+			"_._://button[@aria-label='Profile actions overflow']",
+			"_.mobile://android.widget.LinearLayout[@resource-id='com.pinterest:id/p_recycler_boards_view']//android.widget.LinearLayout/android.widget.ImageView[2]"
+		]
+	},
+	{
+		"name": "eleCreateBoard",
+		"type": "Element",
+		"locators": [
+			"_._://div[@title='Create board']",
+			"_.mobile://android.widget.TextView[@resource-id='com.pinterest:id/option_title' and @text='Board']"
+		]
+	},
+	{
+		"name": "eleCreatePin",
+		"type": "Element",
+		"locators": [
+			"_._://div[@title='Create Pin']",
+			"_.mobile://android.widget.TextView[@resource-id='com.pinterest:id/option_title' and @text='Pin']"
+		]
+	},
+	{
+		"name": "elescrollControl",
+		"type": "Element",
+		"locators": [
+			"_.mobile:id=com.pinterest:id/recycler_adapter_view"
+		]
+	}
+]

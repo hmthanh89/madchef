@@ -1,0 +1,22 @@
+{
+  "default": {
+    "GoogleHomePage": {
+      "txt_search": "name=q"
+    }
+  },
+  "firefox": {
+    "GoogleHomePage": {
+      "txt_search": "//input[@name='q']"
+    }
+  },
+  "android": {
+    "GoogleHomePage": {
+      "txt_search": "//input[@title='Search']"
+    }
+  },
+  "ios": {
+    "GoogleHomePage": {
+      "txt_search": "name=q"
+    }
+  }
+}

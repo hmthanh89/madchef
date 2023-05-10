@@ -1,0 +1,40 @@
+[
+	{
+		"name": "txtEmail",
+		"type": "TextBox",
+		"locators": [
+			"_._://input[@id='email']",
+			"_.mobile:id=com.pinterest:id/email_address"
+		]
+	},
+	{
+		"name": "btnContinue",
+		"type": "Button",
+		"locators": [
+			"_.mobile:id=com.pinterest:id/continue_email_bt"
+		]
+	},
+	{
+		"name": "txtPassword",
+		"type": "TextBox",
+		"locators": [
+			"_._://input[@id='password']",
+			"_.mobile:id=com.pinterest:id/password"
+		]
+	},
+	{
+		"name": "btnLogin",
+		"type": "Button",
+		"locators": [
+			"_._://button[contains(@class,'SignupButton')]",
+			"_.mobile:id=com.pinterest:id/login_bt"
+		]
+	},
+	{
+		"name": "btnWelcomeLogin",
+		"type": "Button",
+		"locators": [
+			"_._://div[@data-test-id='simple-login-button']"
+		]
+	}
+]

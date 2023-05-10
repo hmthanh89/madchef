@@ -1,0 +1,95 @@
+[
+	{
+		"name": "txtPinName",
+		"type": "TextBox",
+		"locators": [
+			"_._://textarea[contains(@id,'pin-draft-title')]",
+			"_.mobile:id=com.pinterest:id/editor_title"
+		]
+	},
+	{
+		"name": "txtPinDescription",
+		"type": "TextBox",
+		"locators": [
+			"_._://textarea[contains(@id,'pin-draft-description')]",
+			"_.mobile:id=com.pinterest:id/editor_description"
+		]
+	},
+	{
+		"name": "txtPinLink",
+		"type": "TextBox",
+		"locators": [
+			"_._://textarea[contains(@id,'pin-draft-link')]"
+		]
+	},
+	{
+		"name": "txtPinUpload",
+		"type": "TextBox",
+		"locators": [
+			"_._://input[@id='media-upload-input']"
+		]
+	},
+	{
+		"name": "btnSave",
+		"type": "Button",
+		"locators": [
+			"_._://button[@data-test-id='board-dropdown-save-button']"
+		]
+	},
+	{
+		"name": "btnSeeItNow",
+		"type": "Button",
+		"locators": [
+			"_._://div[@data-test-id='seeItNow']//button"
+		]
+	},
+	{
+		"name": "btnCamera",
+		"type": "Button",
+		"locators": [
+			"_.mobile://androidx.recyclerview.widget.RecyclerView[@resource-id='com.pinterest:id/recycler_adapter_view']/android.widget.FrameLayout[1]/android.widget.ImageView"
+		]
+	},
+	{
+		"name": "btnCapturePhoto",
+		"type": "Button",
+		"locators": [
+			"_.mobile:id=com.pinterest:id/capture_button"
+		]
+	},
+	{
+		"name": "btnSavePhoto",
+		"type": "Button",
+		"locators": [
+			"_.mobile:id=com.pinterest:id/save_pinit_bt"
+		]
+	},
+	{
+		"name": "btnCreatePinNext",
+		"type": "Button",
+		"locators": [
+			"_.mobile://android.widget.LinearLayout[@resource-id='com.pinterest:id/bar_actions']/android.widget.Button"
+		]
+	},
+	{
+		"name": "btnFirstPhoto",
+		"type": "Button",
+		"locators": [
+			"_.mobile://androidx.recyclerview.widget.RecyclerView[@resource-id='com.pinterest:id/recycler_adapter_view']/android.widget.FrameLayout[3]//android.widget.ImageView"
+		]
+	},
+	{
+		"name": "btnGalleryNext",
+		"type": "Button",
+		"locators": [
+			"_.mobile:id=com.pinterest:id/gallery_next_button"
+		]
+	},
+	{
+		"name": "lblDynamicBoard",
+		"type": "Label",
+		"locators": [
+			"_.mobile://android.widget.TextView[@resource-id='com.pinterest:id/board_name' and @text='%s']"
+		]
+	}
+]

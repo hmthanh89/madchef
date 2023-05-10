@@ -1,0 +1,8 @@
+﻿{
+	"invalidUser": "iminvalid",
+	"invalidPassword": "iminvalid",
+	"validUser": "imvalid",
+	"validPassword": "imvalid",
+	"invalidEmailErrorMessage": "There isn't an account for this username",
+	"emptyEmailErrorMessage": "Missing email"
+}

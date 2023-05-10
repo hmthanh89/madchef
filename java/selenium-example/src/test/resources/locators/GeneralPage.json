@@ -1,0 +1,10 @@
+[
+	{
+		"name": "eleProfile",
+		"type": "Element",
+		"locators": [
+			"_._://div[@aria-label='Saved']",
+			"_.mobile:id=com.pinterest:id/profile_menu_view"
+		]
+	}
+]

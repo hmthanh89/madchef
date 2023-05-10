@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="methods">
+	<listeners>
+		<listener class-name="utils.config.TestListener" />
+	</listeners>
+
+	<test name="API Test">
+		<parameter name="autoLogBug" value="false" />
+		<classes>
+			<class name="tests.api.PinsTest">
+				<methods>
+					<include name="TC01_Create_Pin_Without_Board"/>
+					<include name="TC02_Create_Pin_With_Deleted_Board" />
+					<include name="TC03_Create_Pin_Without_Optional_Parameter"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

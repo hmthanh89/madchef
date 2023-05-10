@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+
+	<!-- Parameters used by tests at runtime -->
+	<TestRunParameters>
+		<Parameter name="Driver" value="local-chrome" />
+		<!--can be local-chrome,local-ie,local-firefox,android-web,ios-web,etc-->
+		<Parameter name="Env" value="Desk" />
+		<Parameter name="Url" value="https://trello.com/login" />
+    <Parameter name="ApiUrl" value="http://dummy.restapiexample.com/api/v1/" />
+		<Parameter name="ConfigPath" value="Resources/DriverConfig.json" />
+	</TestRunParameters>
+
+</RunSettings>

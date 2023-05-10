@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 08 22:49:23 ICT 2023
+selenium-core-0.0.2.jar>=
+selenium-core-0.0.2.pom>=

@@ -1,0 +1,23 @@
+[
+	{
+		"name": "lblPinName",
+		"type": "Label",
+		"locators": [
+			"_._://div[@class='CloseupTitleCard']//h4/div"
+		]
+	},
+	{
+		"name": "lnkPin",
+		"type": "Link",
+		"locators": [
+			"_._://a[@class='linkModuleActionButton']"
+		]
+	},
+	{
+		"name": "imgPin",
+		"type": "Image",
+		"locators": [
+			"_._://div[@data-test-id='closeup-image']/div/img"
+		]
+	}
+]

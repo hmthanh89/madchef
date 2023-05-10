@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" data-provider-thread-count="1"
+	parallel="methods">
+	<listeners>
+		<listener class-name="utils.config.TestListener" />
+	</listeners>
+
+	<test name="Run Chrome">
+		<parameter name="browser" value="chrome.local" />
+		<parameter name="autoLogBug" value="false" />
+		<parameter name="platform" value="desktop" />
+		<classes>
+			<class name="tests.web.CreateBoardTest">
+				<methods>
+					<include name="TC01_Create_New_Board" />
+					<include name="TC02_Create_New_Board_With_Pins" />
+				</methods>
+			</class>
+			<class name="tests.web.CreatePinTest">
+				<methods>
+					<include name="TC01_Create_New_Pin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Run On Android Native App">
+		<parameter name="browser" value="android.native" />
+		<parameter name="autoLogBug" value="false" />
+		<parameter name="platform" value="mobile" />
+		<classes>
+			<class name="tests.web.CreateBoardTest">
+				<methods>
+					<include name="TC01_Create_New_Board" />
+					<include name="TC02_Create_New_Board_With_Pins" />
+				</methods>
+			</class>
+			<class name="tests.web.CreatePinTest">
+				<methods>
+					<include name="TC01_Create_New_Pin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
